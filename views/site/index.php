@@ -13,7 +13,7 @@ $this->title = 'Главная страница';
 
         <p class="lead">Окунемся в мир роботов вместе</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://pr-kravetc.xn--80ahdri7a.site/site/login">Личный кабинет</a></p>
+        <p><a class="btn btn-lg btn-primary" href="http://pr-kravetc.xn--80ahdri7a.site/site/login">Личный кабинет</a></p>
     </div>
 
     <style>
@@ -37,7 +37,7 @@ $this->title = 'Главная страница';
     <div class="row">
         <div class="col-md-6">
             <div class="card">
-                <?= Html::img('@web/image/6.jpeg', ['class' => 'card-img-top', 'alt' => 'Arduino']) ?>
+                <?= Html::img('@web/image/7.jpg', ['class' => 'card-img-top', 'alt' => 'Arduino']) ?>
                 <div class="card-body">
                     <h5 class="card-title">Arduino</h5>
                     <p class="card-text">Дешево/сердито</p>
@@ -51,7 +51,7 @@ $this->title = 'Главная страница';
         </div>
         <div class="col-md-6">
             <div class="card">
-                <?= Html::img('@web/image/7.jpeg', ['class' => 'card-img-top', 'alt' => 'Raspberry Pi']) ?>
+                <?= Html::img('@web/image/7.png', ['class' => 'card-img-top', 'alt' => 'Raspberry Pi']) ?>
                 <div class="card-body">
                     <h5 class="card-title">Raspberry Pi</h5>
                     <p class="card-text">Больше/возможностей</p>

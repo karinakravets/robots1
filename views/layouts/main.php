@@ -60,7 +60,7 @@ $this->registerCssFile("@web/css/style.css");
 </svg>' . Yii::$app->name,
         'brandOptions' => ['class' => 'd-flex'],
         'brandUrl' => Yii::$app->homeUrl,
-        'options' => ['class' => 'navbar-expand-md navbar-dark bg-primary fixed-top']
+        'options' => ['class' => 'navbar-expand-md navbar-dark bg-info fixed-top']
     ]);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
